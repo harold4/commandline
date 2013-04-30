@@ -190,6 +190,10 @@ namespace CommandLine.Parsing
                     array.SetValue(Convert.ChangeType(values[i], elementType, _parsingCulture), i);
                     _property.SetValue(options, array, null);
                 }
+                catch (InvalidCastException)
+                {
+                    return false;
+                }
                 catch (FormatException)
                 {
                     return false;
