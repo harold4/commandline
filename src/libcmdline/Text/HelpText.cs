@@ -701,7 +701,10 @@ namespace CommandLine.Text
             this._optionsHelp.Append("    ");
             if (option.HasDefaultValue)
             {
-                option.HelpText = "(Default: {0}) ".FormatLocal(option.DefaultValue) + option.HelpText;
+                string def;
+                if (option.DefaultValue is string[]) def = string.Join(", ", (string[])option.DefaultValue);
+                else def = option.DefaultValue.ToString();
+                option.HelpText = "(Default: {0}) ".FormatLocal(def) + option.HelpText;
             }
 
             if (option.Required)
