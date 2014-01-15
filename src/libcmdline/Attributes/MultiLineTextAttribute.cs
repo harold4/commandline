@@ -192,7 +192,7 @@ namespace CommandLine
 
         internal void AddToHelpText(HelpText helpText, bool before)
         {
-            // before flag only distinguishes which action is called, 
+            // before flag only distinguishes which action is called,
             // so refactor common code and call with appropriate action
             if (before)
             {

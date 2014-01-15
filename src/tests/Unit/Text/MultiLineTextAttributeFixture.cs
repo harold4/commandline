@@ -4,7 +4,7 @@
 //
 // Author:
 //   Robert Kayman (rkayman@gmail.com) / https://github.com/rkayman
-// 
+//
 // Copyright (C) 2013 Robert Kayman
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -36,7 +36,7 @@ using FluentAssertions;
 #endregion
 
 namespace CommandLine.Tests.Unit.Text
-{  
+{
     public class MultiLineTextAttributeFixture
     {
         [Fact]

@@ -46,7 +46,7 @@ namespace CommandLine.Tests.Unit.Parser
             var writer = new StringWriter();
             var parser = new CommandLine.Parser(new ParserSettings(writer));
             var options = new SimpleOptionsWithHelpOption();
-            
+
             bool success = parser.ParseArguments(new string[] {"--help"}, options);
 
             success.Should().BeFalse();

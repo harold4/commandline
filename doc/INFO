@@ -27,7 +27,7 @@ Build (requires Ruby):
 gem install rake
 gem install albacore
 rake
-	
+
 Unit Tests:
 rake test
 
@@ -50,7 +50,7 @@ Development Environment:
         MS Visual Studio 2010|2012 (http://www.microsoft.com/visualstudio/eng/visual-studio-update)
   - Code Analysis:
         JetBrains ReSharper with Open Source License (http://www.jetbrains.com/resharper/)
-  - Version Control: 
+  - Version Control:
         Git (http://git-scm.com/)
         msysgit (http://code.google.com/p/msysgit/)
         SVN (http://subversion.tigris.org/)
@@ -72,7 +72,7 @@ Comments, bugs and other:
 
 Enjoy,
   Giacomo Stelluti Scala
-  
+
 ---------------------------------------------------------------------------------------
 [NOTES]
 *1) In a production environment you should use a 'stable' version, an 'rc' (release

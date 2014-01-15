@@ -134,7 +134,7 @@ namespace CommandLine
         {
             Dispose(false);
         }
-        
+
         /// <summary>
         /// Gets or sets a value indicating whether perform case sensitive comparisons.
         /// </summary>

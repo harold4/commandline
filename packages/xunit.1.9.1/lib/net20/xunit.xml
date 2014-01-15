@@ -2303,7 +2303,7 @@
         </member>
         <member name="M:Xunit.Sdk.ITypeInfo.GetMethods">
             <summary>
-            Gets all the methods 
+            Gets all the methods
             </summary>
             <returns></returns>
         </member>

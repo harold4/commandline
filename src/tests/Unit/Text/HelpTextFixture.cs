@@ -6,7 +6,7 @@
 //   Giacomo Stelluti Scala (gsscoder@gmail.com)
 // Contributor(s):
 //   Steven Evans
-// 
+//
 // Copyright (C) 2005 - 2013 Giacomo Stelluti Scala
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -274,11 +274,11 @@ namespace CommandLine.Tests.Unit.Text
                 Copyright = new CopyrightInfo("Author", DateTime.Now.Year)
             };
             local.AddOptions(new MockOptionsSimple());
-            
+
             string help = local.ToString();
-            
+
             Console.WriteLine(help);
-            
+
             string[] lines = help.Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
             lines[3].Should().Be("  -s, --something    Input something here.");
         }
@@ -420,7 +420,7 @@ namespace CommandLine.Tests.Unit.Text
 
             result.Should().BeFalse();
         }
-        
+
         [Fact]
         public void Detailed_help_with_bad_format_and_mutual_exclusiveness()
         {
@@ -461,7 +461,7 @@ namespace CommandLine.Tests.Unit.Text
                     optionHelp = "Gibt den Eingang an zu bearbeitenden Datei.";
                     break;
             }
-            
+
             if (e.Option.Required)
             {
                 optionHelp = "Erforderlich. " + optionHelp;

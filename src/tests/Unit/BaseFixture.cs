@@ -31,7 +31,7 @@ using System.Collections.Generic;
 using Xunit;
 using FluentAssertions;
 #endregion
-    
+
 namespace CommandLine.Tests.Unit
 {
     public abstract class BaseFixture

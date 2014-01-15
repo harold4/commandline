@@ -41,7 +41,7 @@ namespace CommandLine.Tests.Unit
         {
             var builder = new StringBuilder(256);
             var type = instance.GetType();
-            var fields = type.GetFields();            
+            var fields = type.GetFields();
 
             foreach (FieldInfo field in fields)
             {
@@ -93,7 +93,7 @@ namespace CommandLine.Tests.Unit
                     builder.Append("non-option value: ");
                     builder.Append(value);
                     builder.Append(Environment.NewLine);
-                }                
+                }
             }
         }
     }

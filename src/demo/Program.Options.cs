@@ -62,7 +62,7 @@ namespace CommandLine.Demo
 
             [Option('v', MetaValue = "INT", HelpText = "Verbose level. Range: from 0 to 2.")]
             public int? VerboseLevel { get; set; }
-             
+
             [Option("i", HelpText = "If file has errors don't stop processing.")]
             public bool IgnoreErrors { get; set; }
 

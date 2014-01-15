@@ -29,7 +29,7 @@ namespace CommandLine.Tests.Unit.Parser
             options.NullableDoubleItem.Should().Be(0.1234D);
             options.StringValue.Should().Be("out.ext");
         }
-        
+
         [Fact]
         public void Value_option_attribute_values_are_not_mandatory()
         {

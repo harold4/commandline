@@ -175,7 +175,7 @@ namespace CommandLine
         }
 
         /// <summary>
-        /// Gets or sets a short description of this command line option. Usually a sentence summary. 
+        /// Gets or sets a short description of this command line option. Usually a sentence summary.
         /// </summary>
         public string HelpText
         {

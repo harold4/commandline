@@ -11,7 +11,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 #endregion
 
-// Information about this assembly is defined by the following attributes. 
+// Information about this assembly is defined by the following attributes.
 // Change them to the values specific to your project.
 
 [assembly: AssemblyTitle(ThisAssembly.Title)]
@@ -29,7 +29,7 @@ using System.Runtime.InteropServices;
 
 [assembly: AssemblyVersion(ThisAssembly.Version)]
 
-// The following attributes are used to specify the signing key for the assembly, 
+// The following attributes are used to specify the signing key for the assembly,
 // if desired. See the Mono documentation for more information about signing.
 
 //[assembly: AssemblyDelaySign(false)]

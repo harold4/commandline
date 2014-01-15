@@ -52,7 +52,7 @@ int Method(string arg1, string arg2, string arg3)
         else
         {
             return 1;
-        }  
+        }
     }
     else
     {

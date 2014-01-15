@@ -196,7 +196,7 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.InternalTestFailureException">
             <summary>
-            InternalTestFailureException class. Used to indicate internal failure 
+            InternalTestFailureException class. Used to indicate internal failure
             for a test case.
             </summary>
         </member>
@@ -227,7 +227,7 @@
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.error">
             <summary>
-            
+
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(System.Boolean)">
@@ -533,7 +533,7 @@
             The second value to compare. This is the value produced by the code under test.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -582,7 +582,7 @@
             An array of parameters to use when formatting <paramref name="message"/>.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -976,7 +976,7 @@
             <paramref name="delta"/>. The message is shown in test results.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -1005,7 +1005,7 @@
             An array of parameters to use when formatting <paramref name="message"/>.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -1101,7 +1101,7 @@
             indicates a case-insensitive comparison.)
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -1126,7 +1126,7 @@
             test results.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -1154,7 +1154,7 @@
             An array of parameters to use when formatting <paramref name="message"/>.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -1177,7 +1177,7 @@
             A CultureInfo object that supplies culture-specific comparison information.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -1205,7 +1205,7 @@
             test results.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -1236,7 +1236,7 @@
             An array of parameters to use when formatting <paramref name="message"/>.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -2224,7 +2224,7 @@
             code under test.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -2248,7 +2248,7 @@
             test results.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -2275,7 +2275,7 @@
             An array of parameters to use when formatting <paramref name="message"/>.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -2367,7 +2367,7 @@
             The compare implementation to use when comparing elements of the collection.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -2394,7 +2394,7 @@
             test results.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -2424,7 +2424,7 @@
             An array of parameters to use when formatting <paramref name="message"/>.
             </param>
             <exception cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException">
-            Thrown if <paramref name="expected"/> is not equal to 
+            Thrown if <paramref name="expected"/> is not equal to
             <paramref name="actual"/>.
             </exception>
         </member>
@@ -2583,7 +2583,7 @@
             such as:
             1. public default constructor
             2. implements common interface: IComparable, IEnumerable, ICloneable
-            
+
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.#ctor">
@@ -2628,7 +2628,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.GenericParameterHelper.Clone">
             <summary>
-            Returns a GenericParameterHelper object that is equal to 
+            Returns a GenericParameterHelper object that is equal to
             'this' one.
             </summary>
             <returns></returns>
@@ -2974,7 +2974,7 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext">
             <summary>
-            TestContext class. This class should be fully abstract and not contain any 
+            TestContext class. This class should be fully abstract and not contain any
             members. The adapter will implement the members. Users in the framework should
             only access this via a well-defined interface.
             </summary>
@@ -3045,10 +3045,10 @@
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestOutcome">
             <summary>
             Outcome of a test or a run.
-            If a new successful state needs to be added you will need to modify 
+            If a new successful state needs to be added you will need to modify
             RunResultAndStatistics in TestRun and TestOutcomeHelper below.
-            
-            NOTE: the order is important and is used for computing outcome for aggregations. 
+
+            NOTE: the order is important and is used for computing outcome for aggregations.
                   More important outcomes come first. See TestOutcomeHelper.GetAggregationOutcome.
             </summary>
         </member>
@@ -3086,7 +3086,7 @@
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestOutcome.Aborted">
             <summary>
-            Test was aborted by the user. 
+            Test was aborted by the user.
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestOutcome.Unknown">

@@ -16,7 +16,7 @@
         </member>
         <member name="M:FluentAssertions.AssertionExtensions.Invoking``1(``0,System.Action{``0})">
             <summary>
-            Invokes the specified action on an subject so that you can chain it with any of the ShouldThrow or ShouldNotThrow 
+            Invokes the specified action on an subject so that you can chain it with any of the ShouldThrow or ShouldNotThrow
             overloads.
             </summary>
         </member>
@@ -66,7 +66,7 @@
             The type of the exception it should throw.
             </typeparam>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -85,7 +85,7 @@
             The type of the exception it should not throw. Any other exceptions are ignored and will satisfy the assertion.
             </typeparam>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -98,7 +98,7 @@
             </summary>
             <param name="action">The current method or property.</param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -107,13 +107,13 @@
         </member>
         <member name="M:FluentAssertions.AssertionExtensions.Enumerating(System.Func{System.Collections.IEnumerable})">
             <summary>
-            Forces enumerating a collection. Should be used to assert that a method that uses the 
+            Forces enumerating a collection. Should be used to assert that a method that uses the
             <c>yield</c> keyword throws a particular exception.
             </summary>
         </member>
         <member name="M:FluentAssertions.AssertionExtensions.Enumerating``1(System.Func{System.Collections.Generic.IEnumerable{``0}})">
             <summary>
-            Forces enumerating a collection. Should be used to assert that a method that uses the 
+            Forces enumerating a collection. Should be used to assert that a method that uses the
             <c>yield</c> keyword throws a particular exception.
             </summary>
         </member>
@@ -331,18 +331,18 @@
         </member>
         <member name="M:FluentAssertions.AssertionExtensions.ShouldBeEquivalentTo``1(``0,System.Object,System.String,System.Object[])">
             <summary>
-            Asserts that an object is equivalent to another object. 
+            Asserts that an object is equivalent to another object.
             </summary>
             <remarks>
-            Objects are equivalent when both object graphs have equally named properties with the same value, 
+            Objects are equivalent when both object graphs have equally named properties with the same value,
             irrespective of the type of those objects. Two properties are also equal if one type can be converted to another and the result is equal.
             The type of a collection property is ignored as long as the collection implements <see cref="T:System.Collections.IEnumerable"/> and all
-            items in the collection are structurally equal. 
-            Notice that actual behavior is determined by the <see cref="F:FluentAssertions.Equivalency.EquivalencyAssertionOptions`1.Default"/> instance of the 
+            items in the collection are structurally equal.
+            Notice that actual behavior is determined by the <see cref="F:FluentAssertions.Equivalency.EquivalencyAssertionOptions`1.Default"/> instance of the
             <see cref="T:FluentAssertions.Equivalency.EquivalencyAssertionOptions`1"/> class.
             </remarks>
             <param name="reason">
-            An optional formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the 
+            An optional formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the
             assertion is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -351,21 +351,21 @@
         </member>
         <member name="M:FluentAssertions.AssertionExtensions.ShouldBeEquivalentTo``1(``0,System.Object,System.Func{FluentAssertions.Equivalency.EquivalencyAssertionOptions{``0},FluentAssertions.Equivalency.EquivalencyAssertionOptions{``0}},System.String,System.Object[])">
             <summary>
-            Asserts that an object is equivalent to another object. 
+            Asserts that an object is equivalent to another object.
             </summary>
             <remarks>
-            Objects are equivalent when both object graphs have equally named properties with the same value, 
+            Objects are equivalent when both object graphs have equally named properties with the same value,
             irrespective of the type of those objects. Two properties are also equal if one type can be converted to another and the result is equal.
             The type of a collection property is ignored as long as the collection implements <see cref="T:System.Collections.IEnumerable"/> and all
-            items in the collection are structurally equal. 
+            items in the collection are structurally equal.
             </remarks>
             <param name="config">
-            A reference to the <see cref="F:FluentAssertions.Equivalency.EquivalencyAssertionOptions`1.Default"/> configuration object that can be used 
-            to influence the way the object graphs are compared. You can also provide an alternative instance of the 
+            A reference to the <see cref="F:FluentAssertions.Equivalency.EquivalencyAssertionOptions`1.Default"/> configuration object that can be used
+            to influence the way the object graphs are compared. You can also provide an alternative instance of the
             <see cref="T:FluentAssertions.Equivalency.EquivalencyAssertionOptions`1"/> class.
             </param>
             <param name="reason">
-            An optional formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the 
+            An optional formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the
             assertion is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -397,7 +397,7 @@
             </summary>
             <typeparam name="T">The expected type of the object.</typeparam>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -442,7 +442,7 @@
             </summary>
             <param name="expected">The expected number of items in the collection.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -455,7 +455,7 @@
             </summary>
             <param name="countPredicate">A predicate that yields the number of items that is expected to be in the collection.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -467,7 +467,7 @@
             Asserts that the collection does not contain any items.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -479,7 +479,7 @@
             Asserts that the collection contains at least 1 item.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -491,7 +491,7 @@
             Asserts that the collection does not contain any duplicate items.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -503,7 +503,7 @@
             Asserts that the collection does not contain any <c>null</c> items.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -512,19 +512,19 @@
         </member>
         <member name="M:FluentAssertions.Collections.CollectionAssertions`2.Equal(System.Object[])">
             <summary>
-            Expects the current collection to contain all the same elements in the same order as the collection identified by 
+            Expects the current collection to contain all the same elements in the same order as the collection identified by
             <paramref name="elements"/>. Elements are compared using their <see cref="M:System.Object.Equals(System.Object)"/>.
             </summary>
             <param name="elements">A params array with the expected elements.</param>
         </member>
         <member name="M:FluentAssertions.Collections.CollectionAssertions`2.Equal(System.Collections.IEnumerable,System.String,System.Object[])">
             <summary>
-            Expects the current collection to contain all the same elements in the same order as the collection identified by 
+            Expects the current collection to contain all the same elements in the same order as the collection identified by
             <paramref name="expected"/>. Elements are compared using their <see cref="M:System.Object.Equals(System.Object)"/>.
             </summary>
             <param name="expected">An <see cref="T:System.Collections.IEnumerable"/> with the expected elements.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -533,12 +533,12 @@
         </member>
         <member name="M:FluentAssertions.Collections.CollectionAssertions`2.NotEqual(System.Collections.IEnumerable,System.String,System.Object[])">
             <summary>
-            Expects the current collection not to contain all the same elements in the same order as the collection identified by 
+            Expects the current collection not to contain all the same elements in the same order as the collection identified by
             <paramref name="unexpected"/>. Elements are compared using their <see cref="M:System.Object.Equals(System.Object)"/>.
             </summary>
             <param name="unexpected">An <see cref="T:System.Collections.IEnumerable"/> with the elements that are not expected.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -559,7 +559,7 @@
             </summary>
             <param name="expected">An <see cref="T:System.Collections.IEnumerable"/> with the expected elements.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -573,7 +573,7 @@
             </summary>
             <param name="unexpected">An <see cref="T:System.Collections.IEnumerable"/> with the unexpected elements.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -585,7 +585,7 @@
             Asserts that the current collection only contains items that are assignable to the type <typeparamref name="T"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -599,7 +599,7 @@
             </summary>
             <param name="expected">An <see cref="T:System.Collections.IEnumerable"/> with the expected elements.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -620,7 +620,7 @@
             </summary>
             <param name="expected">An <see cref="T:System.Collections.IEnumerable"/> with the expected elements.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -633,7 +633,7 @@
             using their <see cref="M:System.Object.Equals(System.Object)"/> implementation.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -646,7 +646,7 @@
             using their <see cref="M:System.Object.Equals(System.Object)"/> implementation.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -665,7 +665,7 @@
             using their <see cref="M:System.Object.Equals(System.Object)"/> implementation.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -678,7 +678,7 @@
             using their <see cref="M:System.Object.Equals(System.Object)"/> implementation.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -696,8 +696,8 @@
             Asserts that the collection is a subset of the <paramref name="expectedSuperset"/>.
             </summary>
             <param name="expectedSuperset">An <see cref="T:System.Collections.IEnumerable"/> with the expected superset.</param>
-            <param name="reason">        
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            <param name="reason">
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -710,7 +710,7 @@
             </summary>
             <param name="unexpectedSuperset">An <see cref="T:System.Collections.IEnumerable"/> with the unexpected superset.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -723,7 +723,7 @@
             </summary>
             <param name="otherCollection">The other collection with the same expected number of elements</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -735,7 +735,7 @@
             Asserts that the current collection has not been initialized yet with an actual collection.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -747,7 +747,7 @@
             Asserts that the current collection has been initialized with an actual collection.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -756,13 +756,13 @@
         </member>
         <member name="M:FluentAssertions.Collections.CollectionAssertions`2.HaveElementAt(System.Int32,System.Object,System.String,System.Object[])">
             <summary>
-            Asserts that the current collection has the supplied <paramref name="element"/> at the 
+            Asserts that the current collection has the supplied <paramref name="element"/> at the
             supplied <paramref name="index"/>.
             </summary>
             <param name="index">The index where the element is expected</param>
             <param name="element">The expected element</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -775,7 +775,7 @@
             </summary>
             <param name="unexpected">The element that is not expected to be in the collection</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -788,7 +788,7 @@
             </summary>
             <param name="otherCollection">The <see cref="T:System.Collections.IEnumerable"/> with the expected shared items.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -801,7 +801,7 @@
             </summary>
             <param name="otherCollection">The <see cref="T:System.Collections.IEnumerable"/> to compare to.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -815,7 +815,7 @@
         </member>
         <member name="M:FluentAssertions.Collections.GenericCollectionAssertions`1.Equal(System.Collections.Generic.IEnumerable{`0},System.Func{`0,`0,System.Boolean},System.String,System.Object[])">
             <summary>
-            Asserts that two collections contain the same items in the same order, where equality is determined using a 
+            Asserts that two collections contain the same items in the same order, where equality is determined using a
             predicate.
             </summary>
             <param name="expectation">
@@ -825,7 +825,7 @@
             A predicate the is used to determine whether two objects should be treated as equal.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -838,7 +838,7 @@
             </summary>
             <param name="expected">The expectation item.</param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -858,7 +858,7 @@
             </summary>
             <param name="predicate">A predicate to match the items in the collection against.</param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -871,7 +871,7 @@
             </summary>
             <param name="predicate">A predicate to match the items in the collection against.</param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -884,7 +884,7 @@
             </summary>
             <param name="predicate">A predicate to match the items in the collection against.</param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -897,7 +897,7 @@
             </summary>
             <param name="predicate">The predictes that will be used to find the matching items.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -914,7 +914,7 @@
             Asserts that the current dictionary has not been initialized yet with an actual dictionary.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -926,7 +926,7 @@
             Asserts that the current dictionary has been initialized with an actual dictionary.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -939,7 +939,7 @@
             </summary>
             <param name="expected">The expected number of items.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -952,7 +952,7 @@
             </summary>
             <param name="countPredicate">The predicate which must be statisfied by the amount of items.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -964,7 +964,7 @@
             Asserts that the dictionary does not contain any items.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -976,7 +976,7 @@
             Asserts that the dictionary contains at least 1 item.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -991,7 +991,7 @@
             </summary>
             <param name="expected">The expected dictionary</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1006,7 +1006,7 @@
             </summary>
             <param name="unexpected">The unexpected dictionary</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1020,7 +1020,7 @@
             </summary>
             <param name="expected">The expected key</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1041,7 +1041,7 @@
             </summary>
             <param name="expected">The expected keys</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1055,7 +1055,7 @@
             </summary>
             <param name="unexpected">The unexpected key</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1069,7 +1069,7 @@
             </summary>
             <param name="expected">The expected value</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1090,7 +1090,7 @@
             </summary>
             <param name="expected">The expected values</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1104,7 +1104,7 @@
             </summary>
             <param name="unexpected">The unexpected value</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1118,7 +1118,7 @@
             </summary>
             <param name="expected">The expected <see cref="T:System.Collections.Generic.KeyValuePair`2"/></param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1132,7 +1132,7 @@
             <param name="key">The key for which to validate the value</param>
             <param name="value">The value to validate</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1146,7 +1146,7 @@
             </summary>
             <param name="item">The unexpected <see cref="T:System.Collections.Generic.KeyValuePair`2"/></param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1161,7 +1161,7 @@
             <param name="key">The key for which to validate the value</param>
             <param name="value">The value to validate</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1185,7 +1185,7 @@
             </summary>
             <param name="expected">An object, or <see cref="T:System.Collections.IEnumerable"/> of objects that are expected to be in the collection.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -1224,7 +1224,7 @@
             Joins a string with one or more other strings using a specified separator.
             </summary>
             <remarks>
-            Any string that is empty (including the original string) is ignored. 
+            Any string that is empty (including the original string) is ignored.
             </remarks>
         </member>
         <member name="M:FluentAssertions.Common.TypeExtensions.IsEquivalentTo(System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)">
@@ -1280,7 +1280,7 @@
             The name of the event that should have been raised.
             </param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -1313,7 +1313,7 @@
             The name of the event that should not be raised.
             </param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -1343,7 +1343,7 @@
             <c>null</c> to refer to all properties.
             </param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -1372,7 +1372,7 @@
             A lambda expression referring to the property for which the property changed event should have been raised.
             </param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -1489,7 +1489,7 @@
         </member>
         <member name="T:FluentAssertions.Events.EventRecordersMap">
             <summary>
-                Simple dictionary that uses a <see cref="T:System.WeakReference"/> to the event source as the key. 
+                Simple dictionary that uses a <see cref="T:System.WeakReference"/> to the event source as the key.
                 This should ensure the Garbage Collector can still clean-up the event source object.
             </summary>
         </member>
@@ -1594,7 +1594,7 @@
             Specify the reason why you expect the condition to be <c>true</c>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the condition should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the condition should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -1737,7 +1737,7 @@
         </member>
         <member name="T:FluentAssertions.Formatting.AttributeBasedFormatter">
             <summary>
-            Specialized value formatter that looks for static methods in the caller's assembly marked with the 
+            Specialized value formatter that looks for static methods in the caller's assembly marked with the
             <see cref="T:FluentAssertions.Formatting.ValueFormatterAttribute"/>.
             </summary>
         </member>
@@ -1757,7 +1757,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -1783,7 +1783,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -1809,7 +1809,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -1835,7 +1835,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -1861,7 +1861,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -1887,7 +1887,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -1939,7 +1939,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -1965,7 +1965,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -1991,7 +1991,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -2017,7 +2017,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -2043,7 +2043,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -2074,7 +2074,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -2091,7 +2091,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -2117,7 +2117,7 @@
             <param name="value">The value for which to create a <see cref="T:System.String"/>.</param>
             <param name="useLineBreaks"> </param>
             <param name="processedObjects">
-            A collection of objects that 
+            A collection of objects that
             </param>
             <param name="nestedPropertyLevel">
             The level of nesting for the supplied value. This is used for indenting the format string for objects that have
@@ -2144,7 +2144,7 @@
             The maximum amount of which the two values may differ.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2163,7 +2163,7 @@
             The maximum amount of which the two values may differ.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2182,7 +2182,7 @@
             The maximum amount of which the two values may differ.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2201,7 +2201,7 @@
             The maximum amount of which the two values may differ.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2221,7 +2221,7 @@
             The object to pass to the subject's <see cref="M:System.IComparable`1.CompareTo(`0)"/> method.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2236,7 +2236,7 @@
             The object to pass to the subject's <see cref="M:System.IComparable`1.CompareTo(`0)"/> method.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2251,7 +2251,7 @@
             The object to pass to the subject's <see cref="M:System.IComparable`1.CompareTo(`0)"/> method.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2266,7 +2266,7 @@
             The object to pass to the subject's <see cref="M:System.IComparable`1.CompareTo(`0)"/> method.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2281,7 +2281,7 @@
             The object to pass to the subject's <see cref="M:System.IComparable`1.CompareTo(`0)"/> method.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2296,7 +2296,7 @@
             The object to pass to the subject's <see cref="M:System.IComparable`1.CompareTo(`0)"/> method.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2308,7 +2308,7 @@
             Asserts that a value is within a range.
             </summary>
             <remarks>
-            Where the range is continuous or incremental depends on the actual type of the value. 
+            Where the range is continuous or incremental depends on the actual type of the value.
             </remarks>
             <param name="minimumValue">
             The minimum valid value of the range.
@@ -2317,7 +2317,7 @@
             The maximum valid value of the range.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2329,24 +2329,24 @@
             Asserts that a nullable numeric value is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>      
+            </param>
         </member>
         <member name="M:FluentAssertions.Numeric.ComparableTypeAssertions`1.BeNull(System.String,System.Object[])">
             <summary>
             Asserts that a nullable numeric value is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>  
+            </param>
         </member>
         <member name="P:FluentAssertions.Numeric.ComparableTypeAssertions`1.Subject">
             <summary>
@@ -2364,7 +2364,7 @@
             </summary>
             <param name="expected">The expected value.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2377,7 +2377,7 @@
             </summary>
             <param name="expected">The expected value.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2390,7 +2390,7 @@
             </summary>
             <param name="unexpected">The unexpected value.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2403,7 +2403,7 @@
             </summary>
             <param name="unexpected">The unexpected value.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2415,7 +2415,7 @@
             Asserts that the numeric value is greater than or equal to zero.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2427,7 +2427,7 @@
             Asserts that the numeric value is less than zero.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2440,7 +2440,7 @@
             </summary>
             <param name="expected">The value to compare the current numeric value with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2453,7 +2453,7 @@
             </summary>
             <param name="expected">The value to compare the current numeric value with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2466,7 +2466,7 @@
             </summary>
             <param name="expected">The value to compare the current numeric value with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2479,7 +2479,7 @@
             </summary>
             <param name="expected">The value to compare the current numeric value with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2491,7 +2491,7 @@
             Asserts that a value is within a range.
             </summary>
             <remarks>
-            Where the range is continuous or incremental depends on the actual type of the value. 
+            Where the range is continuous or incremental depends on the actual type of the value.
             </remarks>
             <param name="minimumValue">
             The minimum valid value of the range.
@@ -2500,7 +2500,7 @@
             The maximum valid value of the range.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2523,7 +2523,7 @@
             The values that are valid.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2535,24 +2535,24 @@
             Asserts that a nullable numeric value is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>      
+            </param>
         </member>
         <member name="M:FluentAssertions.Numeric.NullableNumericAssertions`1.NotHaveValue(System.String,System.Object[])">
             <summary>
             Asserts that a nullable numeric value is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>  
+            </param>
         </member>
         <member name="T:FluentAssertions.Primitives.BooleanAssertions">
             <summary>
@@ -2564,7 +2564,7 @@
             Asserts that the value is <c>false</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2576,7 +2576,7 @@
             Asserts that the value is <c>true</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2589,7 +2589,7 @@
             </summary>
             <param name="expected">The expected value</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2603,7 +2603,7 @@
         </member>
         <member name="T:FluentAssertions.ComparisonMode">
             <summary>
-            Defines the way <see cref="!:ExceptionAssertions&lt;TException&gt;.WithMessage(string)"/> compares the expected exception 
+            Defines the way <see cref="!:ExceptionAssertions&lt;TException&gt;.WithMessage(string)"/> compares the expected exception
             message with the actual one.
             </summary>
         </member>
@@ -2656,7 +2656,7 @@
             </summary>
             <param name="expected">The expected value</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2669,7 +2669,7 @@
             </summary>
             <param name="unexpected">The unexpected value</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2692,7 +2692,7 @@
             The maximum amount of milliseconds which the two values may differ.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2705,7 +2705,7 @@
             </summary>
             <param name="expected">The <see cref="T:System.DateTime"/> that the current value is expected to be before.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2718,7 +2718,7 @@
             </summary>
             <param name="expected">The <see cref="T:System.DateTime"/> that the current value is expected to be on or before.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2731,7 +2731,7 @@
             </summary>
             <param name="expected">The <see cref="T:System.DateTime"/> that the current value is expected to be after.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2744,7 +2744,7 @@
             </summary>
             <param name="expected">The <see cref="T:System.DateTime"/> that the current value is expected to be on or after.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2757,7 +2757,7 @@
             </summary>
             <param name="expected">The expected year of the current value.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2770,7 +2770,7 @@
             </summary>
             <param name="expected">The expected month of the current value.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2783,7 +2783,7 @@
             </summary>
             <param name="expected">The expected day of the current value.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2796,7 +2796,7 @@
             </summary>
             <param name="expected">The expected hour of the current value.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2809,7 +2809,7 @@
             </summary>
             <param name="expected">The expected minutes of the current value.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2822,7 +2822,7 @@
             </summary>
             <param name="expected">The expected seconds of the current value.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2868,7 +2868,7 @@
         </member>
         <member name="M:FluentAssertions.Primitives.DateTimeAssertions.BeLessThan(System.TimeSpan)">
             <summary>
-            Returns a <see cref="T:FluentAssertions.Primitives.TimeSpanAssertions"/> object that can be used to assert that the current <see cref="T:System.DateTime"/>  
+            Returns a <see cref="T:FluentAssertions.Primitives.TimeSpanAssertions"/> object that can be used to assert that the current <see cref="T:System.DateTime"/>
             differs at maximum the specified <paramref name="timeSpan"/> compared to another <see cref="T:System.DateTime"/>.
             </summary>
             <param name="timeSpan">
@@ -2890,7 +2890,7 @@
             Asserts that the <see cref="T:System.Guid"/> is <see cref="F:System.Guid.Empty"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2902,7 +2902,7 @@
             Asserts that the <see cref="T:System.Guid"/> is not <see cref="F:System.Guid.Empty"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2915,7 +2915,7 @@
             </summary>
             <param name="expected">The expected <see cref="T:System.String"/> value to compare the actual value with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2928,7 +2928,7 @@
             </summary>
             <param name="expected">The expected value to compare the actual value with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2941,7 +2941,7 @@
             </summary>
             <param name="unexpected">The unexpected value to compare the actual value with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -2963,24 +2963,24 @@
             Asserts that a nullable boolean value is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>      
+            </param>
         </member>
         <member name="M:FluentAssertions.Primitives.NullableBooleanAssertions.NotHaveValue(System.String,System.Object[])">
             <summary>
             Asserts that a nullable boolean value is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>      
+            </param>
         </member>
         <member name="M:FluentAssertions.Primitives.NullableBooleanAssertions.Be(System.Nullable{System.Boolean},System.String,System.Object[])">
             <summary>
@@ -2988,7 +2988,7 @@
             </summary>
             <param name="expected">The expected value</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3008,24 +3008,24 @@
             Asserts that a nullable <see cref="T:System.DateTime"/> value is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>      
+            </param>
         </member>
         <member name="M:FluentAssertions.Primitives.NullableDateTimeAssertions.NotHaveValue(System.String,System.Object[])">
             <summary>
             Asserts that a nullable <see cref="T:System.DateTime"/> value is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>      
+            </param>
         </member>
         <member name="M:FluentAssertions.Primitives.NullableDateTimeAssertions.Be(System.Nullable{System.DateTime},System.String,System.Object[])">
             <summary>
@@ -3033,7 +3033,7 @@
             </summary>
             <param name="expected">The expected value</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3050,24 +3050,24 @@
             Asserts that a nullable <see cref="T:System.Guid"/> value is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>      
+            </param>
         </member>
         <member name="M:FluentAssertions.Primitives.NullableGuidAssertions.NotHaveValue(System.String,System.Object[])">
             <summary>
             Asserts that a nullable <see cref="T:System.Guid"/> value is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>      
+            </param>
         </member>
         <member name="M:FluentAssertions.Primitives.NullableGuidAssertions.Be(System.Nullable{System.Guid},System.String,System.Object[])">
             <summary>
@@ -3075,7 +3075,7 @@
             </summary>
             <param name="expected">The expected value</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3100,7 +3100,7 @@
             Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is greater than zero.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3112,7 +3112,7 @@
             Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is less than zero.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3121,12 +3121,12 @@
         </member>
         <member name="M:FluentAssertions.Primitives.SimpleTimeSpanAssertions.Be(System.TimeSpan,System.String,System.Object[])">
             <summary>
-            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is equal to the 
+            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is equal to the
             specified <paramref name="expected"/> time.
             </summary>
             <param name="expected">The expected time difference</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3135,12 +3135,12 @@
         </member>
         <member name="M:FluentAssertions.Primitives.SimpleTimeSpanAssertions.NotBe(System.TimeSpan,System.String,System.Object[])">
             <summary>
-            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is not equal to the 
+            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is not equal to the
             specified <paramref name="unexpected"/> time.
             </summary>
             <param name="unexpected">The unexpected time difference</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3149,12 +3149,12 @@
         </member>
         <member name="M:FluentAssertions.Primitives.SimpleTimeSpanAssertions.BeLessThan(System.TimeSpan,System.String,System.Object[])">
             <summary>
-            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is less than the 
+            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is less than the
             specified <paramref name="expected"/> time.
             </summary>
             <param name="expected">The time difference to which the current value will be compared</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3163,12 +3163,12 @@
         </member>
         <member name="M:FluentAssertions.Primitives.SimpleTimeSpanAssertions.BeLessOrEqualTo(System.TimeSpan,System.String,System.Object[])">
             <summary>
-            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is less than or equal to the 
+            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is less than or equal to the
             specified <paramref name="expected"/> time.
             </summary>
             <param name="expected">The time difference to which the current value will be compared</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3177,12 +3177,12 @@
         </member>
         <member name="M:FluentAssertions.Primitives.SimpleTimeSpanAssertions.BeGreaterThan(System.TimeSpan,System.String,System.Object[])">
             <summary>
-            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is greater than the 
+            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is greater than the
             specified <paramref name="expected"/> time.
             </summary>
             <param name="expected">The time difference to which the current value will be compared</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3191,12 +3191,12 @@
         </member>
         <member name="M:FluentAssertions.Primitives.SimpleTimeSpanAssertions.BeGreaterOrEqualTo(System.TimeSpan,System.String,System.Object[])">
             <summary>
-            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is greater than or equal to the 
+            Asserts that the time difference of the current <see cref="T:System.TimeSpan"/> is greater than or equal to the
             specified <paramref name="expected"/> time.
             </summary>
             <param name="expected">The time difference to which the current value will be compared</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3213,24 +3213,24 @@
             Asserts that a nullable <see cref="T:System.TimeSpan"/> value is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>      
+            </param>
         </member>
         <member name="M:FluentAssertions.Primitives.NullableSimpleTimeSpanAssertions.NotHaveValue(System.String,System.Object[])">
             <summary>
             Asserts that a nullable <see cref="T:System.TimeSpan"/> value is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
             Zero or more objects to format using the placeholders in <see cref="!:reason"/>.
-            </param>      
+            </param>
         </member>
         <member name="T:FluentAssertions.Primitives.ObjectAssertions">
             <summary>
@@ -3243,7 +3243,7 @@
             </summary>
             <param name="expected">The expected value</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3256,7 +3256,7 @@
             </summary>
             <param name="unexpected">The unexpected value</param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3269,7 +3269,7 @@
             </summary>
             <param name="expected">The expected object</param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3282,7 +3282,7 @@
             </summary>
             <param name="unexpected">The unexpected object</param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3294,7 +3294,7 @@
             Asserts that the object is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3306,7 +3306,7 @@
             Asserts that the object is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3319,7 +3319,7 @@
             the values of all properties.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3332,7 +3332,7 @@
             the values of all properties.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3355,7 +3355,7 @@
             </summary>
             <param name="expected">The expected string.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3378,7 +3378,7 @@
             The values that are valid.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3387,14 +3387,14 @@
         </member>
         <member name="M:FluentAssertions.Primitives.StringAssertions.BeEquivalentTo(System.String,System.String,System.Object[])">
             <summary>
-            Asserts that a string is exactly the same as another string, including any leading or trailing whitespace, with 
+            Asserts that a string is exactly the same as another string, including any leading or trailing whitespace, with
             the exception of the casing.
             </summary>
             <param name="expected">
             The string that the subject is expected to be equivalent to.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3408,7 +3408,7 @@
             </summary>
             <param name="unexpected">The string that the subject is not expected to be equivalent to.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3423,7 +3423,7 @@
             The wildcard pattern with which the subject is matched, where * and ? have special meanings.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3438,7 +3438,7 @@
             The wildcard pattern with which the subject is matched, where * and ? have special meanings.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3453,7 +3453,7 @@
             The wildcard pattern with which the subject is matched, where * and ? have special meanings.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3468,7 +3468,7 @@
             The wildcard pattern with which the subject is matched, where * and ? have special meanings.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3482,7 +3482,7 @@
             </summary>
             <param name="expected">The string that the subject is expected to start with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3496,7 +3496,7 @@
             </summary>
             <param name="expected">The string that the subject is expected to start with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3510,7 +3510,7 @@
             </summary>
             <param name="expected">The string that the subject is expected to end with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3524,7 +3524,7 @@
             </summary>
             <param name="expected">The string that the subject is expected to end with.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3539,7 +3539,7 @@
             The (fragement of a) string that the current string should contain.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3553,7 +3553,7 @@
             </summary>
             <param name="expected">The string that the subject is expected to contain.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3568,7 +3568,7 @@
             The (fragement of a) string that the current string should not contain.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3582,7 +3582,7 @@
             </summary>
             <param name="unexpected">The string that the subject is not expected to contain.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3594,7 +3594,7 @@
             Asserts that a string is <see cref="F:System.String.Empty"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3606,7 +3606,7 @@
             Asserts that a string is not <see cref="F:System.String.Empty"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3619,7 +3619,7 @@
             </summary>
             <param name="expected">The expected length of the string</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3631,7 +3631,7 @@
             Asserts that a string is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3643,7 +3643,7 @@
             Asserts that a string is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3655,7 +3655,7 @@
             Asserts that a string is neither <c>null</c> nor <see cref="F:System.String.Empty"/>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3667,7 +3667,7 @@
             Asserts that a string is either <c>null</c> or <see cref="F:System.String.Empty"/>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3679,7 +3679,7 @@
             Asserts that a string is neither <c>null</c> nor <see cref="F:System.String.Empty"/> nor white space
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3691,7 +3691,7 @@
             Asserts that a string is either <c>null</c> or <see cref="F:System.String.Empty"/> or white space
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3735,7 +3735,7 @@
             The <see cref="T:System.DateTime"/> to compare the subject with.
             </param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3750,7 +3750,7 @@
             The <see cref="T:System.DateTime"/> to compare the subject with.
             </param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3772,7 +3772,7 @@
             Asserts that the current <see cref="T:System.Action"/> throws an exception of type <typeparamref name="TException"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3784,7 +3784,7 @@
             Asserts that the current <see cref="T:System.Action"/> does not throw an exception of type <typeparamref name="TException"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3796,7 +3796,7 @@
             Asserts that the current <see cref="T:System.Action"/> does not throw any exception.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3822,7 +3822,7 @@
               The expected message of the exception.
             </param>
             <param name="reason">
-              A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+              A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
               is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3841,7 +3841,7 @@
               Determines how the expected message is compared with the actual message.
             </param>
             <param name="reason">
-              A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+              A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
               is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -3898,7 +3898,7 @@
               The condition that the exception must match.
             </param>
             <param name="reason">
-              A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+              A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
               start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3929,7 +3929,7 @@
             The maximum allowed duration.
             </param>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -3952,7 +3952,7 @@
         <member name="T:FluentAssertions.Equivalency.AllDeclaredPublicPropertiesSelectionRule">
             <summary>
             Selection rule that adds all public properties of the subject as far as they are defined on the declared
-            type. 
+            type.
             </summary>
         </member>
         <member name="T:FluentAssertions.Equivalency.ISelectionRule">
@@ -4073,10 +4073,10 @@
             The value of the subject's property.
             </param>
             <param name="expectation">
-            The value of a property on expectation object that was identified 
+            The value of a property on expectation object that was identified
             </param>
             <returns>
-            Returns <c>true</c> if the rule was applied correctly and the assertion didn't cause any exceptions. 
+            Returns <c>true</c> if the rule was applied correctly and the assertion didn't cause any exceptions.
             Returns <c>false</c> if this rule doesn't support the subject's type.
             Throws if the rule did support the data type but assertion fails.
             </returns>
@@ -4092,10 +4092,10 @@
             The value of the subject's property.
             </param>
             <param name="expectation">
-            The value of a property on expectation object that was identified 
+            The value of a property on expectation object that was identified
             </param>
             <returns>
-            Returns <c>true</c> if the rule was applied correctly and the assertion didn't cause any exceptions. 
+            Returns <c>true</c> if the rule was applied correctly and the assertion didn't cause any exceptions.
             Returns <c>false</c> if this rule doesn't support the subject's type.
             Throws if the rule did support the data type but assertion fails.
             </returns>
@@ -4124,7 +4124,7 @@
         </member>
         <member name="P:FluentAssertions.Equivalency.IAssertionContext`1.Reason">
             <summary>
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </summary>
         </member>
@@ -4181,7 +4181,7 @@
         </member>
         <member name="P:FluentAssertions.Equivalency.ISubjectInfo.CompileTimeType">
             <summary>
-            Gets the compile-time type of the current object. If the current object is not the root object, then it returns the 
+            Gets the compile-time type of the current object. If the current object is not the root object, then it returns the
             same <see cref="T:System.Type"/> as the <see cref="P:FluentAssertions.Equivalency.ISubjectInfo.RuntimeType"/> property does.
             </summary>
         </member>
@@ -4197,7 +4197,7 @@
         </member>
         <member name="P:FluentAssertions.Equivalency.NestedSelectionContext.PropertyInfo">
             <summary>
-            Gets the <see cref="P:FluentAssertions.Equivalency.ISubjectInfo.PropertyInfo"/> of the property that returned the current object, or 
+            Gets the <see cref="P:FluentAssertions.Equivalency.ISubjectInfo.PropertyInfo"/> of the property that returned the current object, or
             <c>null</c> if the current  object represents the root object.
             </summary>
         </member>
@@ -4213,7 +4213,7 @@
         </member>
         <member name="P:FluentAssertions.Equivalency.NestedSelectionContext.CompileTimeType">
             <summary>
-            Gets the compile-time type of the current object. If the current object is not the root object, then it returns the 
+            Gets the compile-time type of the current object. If the current object is not the root object, then it returns the
             same <see cref="T:System.Type"/> as the <see cref="P:FluentAssertions.Equivalency.ISubjectInfo.RuntimeType"/> property does.
             </summary>
         </member>
@@ -4269,7 +4269,7 @@
         </member>
         <member name="M:FluentAssertions.Equivalency.EquivalencyAssertionOptions`1.IncludingAllDeclaredProperties">
             <summary>
-            Adds all public properties of the subject as far as they are defined on the declared type. 
+            Adds all public properties of the subject as far as they are defined on the declared type.
             </summary>
         </member>
         <member name="M:FluentAssertions.Equivalency.EquivalencyAssertionOptions`1.IncludingAllRuntimeProperties">
@@ -4279,7 +4279,7 @@
         </member>
         <member name="M:FluentAssertions.Equivalency.EquivalencyAssertionOptions`1.ExcludingMissingProperties">
             <summary>
-            Tries to match the properties of the subject with equally named properties on the expectation. Ignores those 
+            Tries to match the properties of the subject with equally named properties on the expectation. Ignores those
             properties that don't exist on the expectation.
             </summary>
         </member>
@@ -4498,13 +4498,13 @@
         </member>
         <member name="T:FluentAssertions.Equivalency.IMatchingRule">
             <summary>
-            Represents a rule that defines how to map the properties from the subject-under-test with the properties 
-            on the expectation object. 
+            Represents a rule that defines how to map the properties from the subject-under-test with the properties
+            on the expectation object.
             </summary>
         </member>
         <member name="M:FluentAssertions.Equivalency.IMatchingRule.Match(System.Reflection.PropertyInfo,System.Object,System.String)">
             <summary>
-            Attempts to find a property on the expectation that should be compared with the 
+            Attempts to find a property on the expectation that should be compared with the
             <paramref name="subjectProperty"/> during a structural equality.
             </summary>
             <remarks>
@@ -4557,7 +4557,7 @@
         </member>
         <member name="P:FluentAssertions.Equivalency.IEquivalencyValidationContext.MatchingExpectationProperty">
             <summary>
-            Gets the property of the <see cref="P:FluentAssertions.Equivalency.IEquivalencyValidationContext.Expectation"/> that was matched against the <see cref="!:SubjectProperty"/>, 
+            Gets the property of the <see cref="P:FluentAssertions.Equivalency.IEquivalencyValidationContext.Expectation"/> that was matched against the <see cref="!:SubjectProperty"/>,
             or <c>null</c> if <see cref="P:FluentAssertions.Equivalency.IEquivalencyValidationContext.IsRoot"/> is <c>true</c>.
             </summary>
         </member>
@@ -4568,7 +4568,7 @@
         </member>
         <member name="P:FluentAssertions.Equivalency.IEquivalencyValidationContext.Reason">
             <summary>
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </summary>
         </member>
@@ -4599,7 +4599,7 @@
         </member>
         <member name="M:FluentAssertions.Equivalency.MustMatchByNameRule.Match(System.Reflection.PropertyInfo,System.Object,System.String)">
             <summary>
-            Attempts to find a property on the expectation that should be compared with the 
+            Attempts to find a property on the expectation that should be compared with the
             <paramref name="subjectProperty"/> during a structural equality.
             </summary>
             <remarks>
@@ -4642,13 +4642,13 @@
         </member>
         <member name="M:FluentAssertions.Equivalency.PropertyAssertions`1.AllRuntimeProperties">
             <summary>
-            Includes all properties of <typeparamref name="T"/> including those of the run-time type when comparing the subject 
+            Includes all properties of <typeparamref name="T"/> including those of the run-time type when comparing the subject
             with another object using <see cref="!:EqualTo(object)"/>.
             </summary>
         </member>
         <member name="M:FluentAssertions.Equivalency.PropertyAssertions`1.SharedProperties">
             <summary>
-            Includes all properties of <typeparamref name="T"/> when comparing the subject with another object using <see cref="!:EqualTo(object)"/>, 
+            Includes all properties of <typeparamref name="T"/> when comparing the subject with another object using <see cref="!:EqualTo(object)"/>,
             except those that the other object does not have.
             </summary>
         </member>
@@ -4663,7 +4663,7 @@
         </member>
         <member name="M:FluentAssertions.Equivalency.PropertyAssertions`1.AllPropertiesBut(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">
             <summary>
-            Includes all properties of <typeparamref name="T"/> when comparing the subject with another object using <see cref="!:EqualTo(object)"/>, 
+            Includes all properties of <typeparamref name="T"/> when comparing the subject with another object using <see cref="!:EqualTo(object)"/>,
             except those specified using a property expression.
             </summary>
             <param name="propertyExpression">A single property expression to exclude.</param>
@@ -4691,11 +4691,11 @@
             </summary>
             <param name="expectation">The object to compare the current object with</param>
             <remarks>
-            Property values are considered equal if, after converting them to the requested type, calling <see cref="!:EqualTo(object)"/> 
+            Property values are considered equal if, after converting them to the requested type, calling <see cref="!:EqualTo(object)"/>
             returns <c>true</c>.
             </remarks>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -4721,7 +4721,7 @@
         </member>
         <member name="P:FluentAssertions.Equivalency.EquivalencyValidationContext.PropertyInfo">
             <summary>
-            Gets the <see cref="P:FluentAssertions.Equivalency.ISubjectInfo.PropertyInfo"/> of the property that returned the current object, or 
+            Gets the <see cref="P:FluentAssertions.Equivalency.ISubjectInfo.PropertyInfo"/> of the property that returned the current object, or
             <c>null</c> if the current object represents the root object.
             </summary>
         </member>
@@ -4742,7 +4742,7 @@
         </member>
         <member name="P:FluentAssertions.Equivalency.EquivalencyValidationContext.MatchingExpectationProperty">
             <summary>
-            Gets the property of the <see cref="P:FluentAssertions.Equivalency.IEquivalencyValidationContext.Expectation"/> that was matched against the <see cref="P:FluentAssertions.Equivalency.ISubjectInfo.PropertyInfo"/>, 
+            Gets the property of the <see cref="P:FluentAssertions.Equivalency.IEquivalencyValidationContext.Expectation"/> that was matched against the <see cref="P:FluentAssertions.Equivalency.ISubjectInfo.PropertyInfo"/>,
             or <c>null</c> if <see cref="P:FluentAssertions.Equivalency.IEquivalencyValidationContext.IsRoot"/> is <c>true</c>.
             </summary>
         </member>
@@ -4753,7 +4753,7 @@
         </member>
         <member name="P:FluentAssertions.Equivalency.EquivalencyValidationContext.Reason">
             <summary>
-              A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+              A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
               is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </summary>
         </member>
@@ -4769,7 +4769,7 @@
         </member>
         <member name="P:FluentAssertions.Equivalency.EquivalencyValidationContext.CompileTimeType">
             <summary>
-            Gets the compile-time type of the current object. If the current object is not the root object, then it returns the 
+            Gets the compile-time type of the current object. If the current object is not the root object, then it returns the
             same <see cref="T:System.Type"/> as the <see cref="P:FluentAssertions.Equivalency.ISubjectInfo.RuntimeType"/> property does.
             </summary>
         </member>
@@ -4812,7 +4812,7 @@
         </member>
         <member name="M:FluentAssertions.Equivalency.TryMatchByNameRule.Match(System.Reflection.PropertyInfo,System.Object,System.String)">
             <summary>
-            Attempts to find a property on the expectation that should be compared with the 
+            Attempts to find a property on the expectation that should be compared with the
             <paramref name="subjectProperty"/> during a structural equality.
             </summary>
             <remarks>
@@ -4989,7 +4989,7 @@
             Asserts that the selected methods are virtual.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5001,7 +5001,7 @@
             Asserts that the selected methods are decorated with the specified <typeparamref name="TAttribute"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5032,7 +5032,7 @@
         </member>
         <member name="M:FluentAssertions.Types.MethodInfoSelector.ThatReturn``1">
             <summary>
-            Only select the methods that return the specified type 
+            Only select the methods that return the specified type
             </summary>
         </member>
         <member name="M:FluentAssertions.Types.MethodInfoSelector.ThatAreDecoratedWith``1">
@@ -5100,7 +5100,7 @@
             Asserts that the selected properties are virtual.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5112,7 +5112,7 @@
             Asserts that the selected methods are decorated with the specified <typeparamref name="TAttribute"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5148,7 +5148,7 @@
         </member>
         <member name="M:FluentAssertions.Types.PropertyInfoSelector.OfType``1">
             <summary>
-            Only select the properties that return the specified type 
+            Only select the properties that return the specified type
             </summary>
         </member>
         <member name="M:FluentAssertions.Types.PropertyInfoSelector.ToArray">
@@ -5194,7 +5194,7 @@
             Asserts that the current type is equal to the specified <typeparamref name="TExpected"/> type.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5207,7 +5207,7 @@
             </summary>
             <param name="expected">The expected type</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5216,7 +5216,7 @@
         </member>
         <member name="M:FluentAssertions.Types.TypeAssertions.GetFailureMessageIfTypesAreDifferent(System.Type,System.Type)">
             <summary>
-            Creates an error message in case the specifed <paramref name="actual"/> type differs from the 
+            Creates an error message in case the specifed <paramref name="actual"/> type differs from the
             <paramref name="expected"/> type.
             </summary>
             <returns>
@@ -5229,7 +5229,7 @@
             Asserts that the current type is not equal to the specified <typeparamref name="TUnexpected"/> type.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5242,7 +5242,7 @@
             </summary>
             <param name="unexpected">The unexpected type</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5254,7 +5254,7 @@
             Asserts that the current <see cref="T:System.Type"/> is decorated with the specified <typeparamref name="TAttribute"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5270,7 +5270,7 @@
             The predicate that the attribute must match.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5351,7 +5351,7 @@
             Asserts that the current <see cref="T:System.Type"/> is decorated with the specified <typeparamref name="TAttribute"/>.
             </summary>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5367,7 +5367,7 @@
             The predicate that the attribute must match.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5401,7 +5401,7 @@
             </summary>
             <param name="expected">The expected attribute</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5422,7 +5422,7 @@
             </summary>
             <param name="unexpected">The unexpected attribute</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5439,7 +5439,7 @@
             Asserts that the <see cref="T:System.Xml.Linq.XAttribute"/> is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -5456,7 +5456,7 @@
             Asserts that the <see cref="T:System.Xml.Linq.XAttribute"/> is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -5475,7 +5475,7 @@
             </summary>
             <param name="expected">The expected value</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5511,7 +5511,7 @@
             </summary>
             <param name="expected">The expected document</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5532,7 +5532,7 @@
             </summary>
             <param name="unexpected">The unexpected document</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5549,7 +5549,7 @@
             Asserts that the <see cref="T:System.Xml.Linq.XDocument"/> is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -5566,7 +5566,7 @@
             Asserts that the <see cref="T:System.Xml.Linq.XDocument"/> is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -5587,7 +5587,7 @@
             </summary>
             <param name="expected">The name of the expected root element of the current document.</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5612,7 +5612,7 @@
             The name of the expected child element of the current document's Root <see cref="P:System.Xml.Linq.XDocument.Root"/> element.
             </param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5646,7 +5646,7 @@
             </summary>
             <param name="expected">The expected element</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5667,7 +5667,7 @@
             </summary>
             <param name="unexpected">The unexpected element</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5684,7 +5684,7 @@
             Asserts that the <see cref="T:System.Xml.Linq.XElement"/> is <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -5701,7 +5701,7 @@
             Asserts that the <see cref="T:System.Xml.Linq.XElement"/> is not <c>null</c>.
             </summary>
             <param name="reason">
-            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not 
+            A formatted phrase explaining why the assertion should be satisfied. If the phrase does not
             start with the word <i>because</i>, it is prepended to the message.
             </param>
             <param name="reasonArgs">
@@ -5724,7 +5724,7 @@
             <param name="expectedName">The name of the expected attribute</param>
             <param name="expectedValue">The value of the expected attribute</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">
@@ -5745,7 +5745,7 @@
             </summary>
             <param name="expected">The name of the expected child element</param>
             <param name="reason">
-            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion 
+            A formatted phrase as is supported by <see cref="M:System.String.Format(System.String,System.Object[])"/> explaining why the assertion
             is needed. If the phrase does not start with the word <i>because</i>, it is prepended automatically.
             </param>
             <param name="reasonArgs">

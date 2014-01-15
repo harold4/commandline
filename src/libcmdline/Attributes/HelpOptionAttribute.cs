@@ -113,12 +113,12 @@ namespace CommandLine
         {
             text = null;
             var method = pair.Left;
-            
+
             if (!CheckMethodSignature(method))
             {
                 throw new MemberAccessException();
             }
-            
+
             text = (string)method.Invoke(target, null);
         }
 

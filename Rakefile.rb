@@ -113,7 +113,7 @@ nuspec :nuget_nuspec do |nuspec|
      nuspec.file to_win_path("#{PJ_OUTPUT_DIR}/#{LIB_ASM}"), to_win_path("lib/net40/#{LIB_ASM}")
      nuspec.file to_win_path("#{PJ_OUTPUT_DIR}/#{LIB_XML}"), to_win_path("lib/net40/#{LIB_XML}")
      nuspec.file to_win_path("#{PJ_OUTPUT_DIR}/#{LIB_ASM}"), to_win_path("lib/net45/#{LIB_ASM}")
-     nuspec.file to_win_path("#{PJ_OUTPUT_DIR}/#{LIB_XML}"), to_win_path("lib/net45/#{LIB_XML}")     
+     nuspec.file to_win_path("#{PJ_OUTPUT_DIR}/#{LIB_XML}"), to_win_path("lib/net45/#{LIB_XML}")
      nuspec.file to_win_path("#{NUGET_DIR}/readme.txt"), "readme.txt"
 
      nuspec.output_file = "#{NUGET_DIR}/CommandLine.nuspec"

@@ -63,7 +63,7 @@ namespace CommandLine.Tests.Unit.Parser
             var options = new OptionsWithDefaultSet();
             var parser = new CommandLine.Parser(new ParserSettings { MutuallyExclusive = true });
             var result = parser.ParseArguments(new string[] { "--file=mystuff.xml", "-v" }, options);
-            
+
             result.Should().BeTrue();
             options.FileName.Should().Be("mystuff.xml");
             options.Verbose.Should().Be(true);
@@ -75,7 +75,7 @@ namespace CommandLine.Tests.Unit.Parser
             var options = new OptionsWithMultipleSet();
             var parser = new CommandLine.Parser(new ParserSettings { MutuallyExclusive = true });
             var result = parser.ParseArguments(new string[] { "-g167", "--hue", "205" }, options);
-            
+
             result.Should().BeTrue();
             options.Green.Should().Be((byte)167);
             options.Hue.Should().Be((short)205);
@@ -97,7 +97,7 @@ namespace CommandLine.Tests.Unit.Parser
             var options = new OptionsWithMultipleSetAndOneOption();
             var parser = new CommandLine.Parser(new ParserSettings { MutuallyExclusive = true });
             var result = parser.ParseArguments(new string[] { "-g167", "--hue", "205" }, options);
-            
+
             result.Should().BeFalse();
         }
 
@@ -107,7 +107,7 @@ namespace CommandLine.Tests.Unit.Parser
             var options = new OptionsWithMultipleSetAndOneOption();
             var parser = new CommandLine.Parser(new ParserSettings { MutuallyExclusive = true });
             var result = parser.ParseArguments(new string[] { "-g100", "-h200", "-cRgbColorSet" }, options);
-            
+
             result.Should().BeTrue();
             options.Green.Should().Be((byte)100);
             options.Hue.Should().Be((short)200);

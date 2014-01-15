@@ -60,7 +60,7 @@ namespace CommandLine.Tests.Unit.Parser
             var options = new SimpleOptions();
             var parser = new CommandLine.Parser();
             var result = parser.ParseArguments(new string[] { "-s", "something" }, options);
-            
+
             result.Should().BeTrue();
             options.StringValue.Should().Be("something");
             Console.WriteLine(options);
@@ -110,7 +110,7 @@ namespace CommandLine.Tests.Unit.Parser
             options.NonBooleanValue.Should().Be(9D);
             Console.WriteLine(options);
         }
- 
+
         [Fact]
         public void Parse_option_list()
         {

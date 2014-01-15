@@ -44,7 +44,7 @@ namespace CommandLine.Tests.Fakes
         [Option("filename", Required = true, HelpText = "Plug-In X input filename.")]
         public string InputFileName { get; set; }
 
-        [Option('s', "seek", DefaultValue = 10, HelpText = "Start offset to begin read.")] 
+        [Option('s', "seek", DefaultValue = 10, HelpText = "Start offset to begin read.")]
         public long ReadOffset { get; set; }
     }
 }

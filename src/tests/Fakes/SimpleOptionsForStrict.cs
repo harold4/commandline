@@ -36,5 +36,5 @@ namespace CommandLine.Tests.Fakes
         {
             return "SimpleOptionsForStrict (user defined)";
         }
-    } 
+    }
 }

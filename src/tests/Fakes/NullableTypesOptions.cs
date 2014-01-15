@@ -46,5 +46,5 @@ namespace CommandLine.Tests.Fakes
 
         [Option('s', "string")]
         public string StringValue { get; set; }
-    } 
+    }
 }

@@ -5,7 +5,7 @@ src/demo/obj
 src/tests/bin/*
 src/tests/obj
 src/templates/CSharpTemplate/bin/*
-src/templates/CSharpTemplate/obj 
+src/templates/CSharpTemplate/obj
 src/templates/VBNetTemplate/bin/*
 src/templates/VBNetTemplate/obj
 packages

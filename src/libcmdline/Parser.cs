@@ -67,7 +67,7 @@ namespace CommandLine
         public Parser(ParserSettings settings)
         {
             Assumes.NotNull(settings, "settings", SR.ArgumentNullException_ParserSettingsInstanceCannotBeNull);
-            
+
             if (settings.Consumed)
             {
                 throw new InvalidOperationException(SR.InvalidOperationException_ParserSettingsInstanceCanBeUsedOnce);
@@ -168,7 +168,7 @@ namespace CommandLine
             object verbInstance = null;
 
             var result = DoParseArgumentsVerbs(args, options, ref verbInstance);
-            
+
             onVerbCommand(args.FirstOrDefault() ?? string.Empty, result ? verbInstance : null);
 
             return result;

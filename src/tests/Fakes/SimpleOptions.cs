@@ -44,5 +44,5 @@ namespace CommandLine.Tests.Fakes
 
         [Option("switch")]
         public bool BooleanValue { get; set; }
-    } 
+    }
 }
